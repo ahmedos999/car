@@ -1,5 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
 body {
-  margin: 0;
+  margin: 20px 0;
+  font-family: 'Poppins';
+}
+.Navbar{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+ul{
+  display: flex;
+  list-style: none;
+}
+ul>li{
+  margin: 0 20px;
+}
+.active{
+  font-weight: bold
+}
+.sign>button{
+  border: none;
+  background-color: #FF9B00;
+  color: white;
+  font-family: 'Poppins';
+  height:50px;
+  padding: 10px 50px;
+  border-radius: 10px;
+  margin-left: 20px;
+  font-size: 16px
+}
+.sign{
+  display: flex;
 }
 
 
