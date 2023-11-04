@@ -33,5 +33,25 @@ ul>li{
 .sign{
   display: flex;
 }
+.landing{
+  display: flex;
+  margin: 40px 20px;
+}
+.landing>div>h2{
+  font-size: 60px;
+}
+.landing>div{
+  padding:0 40px;
+}
+.landing>div>p{
+  font-size: 18px;
+}
+.landing>img{
+  width: 50%;
+  /* transform: scaleX(-1); */
+}
+span{
+  color: #FF9B00;
+}
 
 
