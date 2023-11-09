@@ -42,27 +42,29 @@ ul>li{
   font-size: 60px;
 }
 .landing>div{
-  padding:0 40px;
+  /* padding:0 40px; */
 }
 .landing>div>p{
   font-size: 18px;
 }
 .landing>img{
   width: 100%;
+  height: 100%;
   /* transform: scaleX(-1); */
 }
 span{
   color: #FF9B00;
 }
 .buttons{
-  margin: 40px;
+  margin: 20px 40px;
 }
 .buttons>button:nth-child(1){
   border: none;
   background-color: #FF9B00;
   color: #fff;
-  padding: 10px 15px;
+  padding: 10px 25px;
   border-radius: 10px;
+  font-size: 18px;
   font-family: 'Poppins';
   margin: 0 10px;
 }
@@ -70,12 +72,14 @@ span{
   border:1px solid #FF9B00;
   background-color: #fff;
   color: #FF9B00;
-  padding: 10px 15px;
+  padding: 10px 25px;
   border-radius: 10px;
+  font-size: 18px;
   font-family: 'Poppins';
   margin: 0 10px;
 }
 .locations{
+  margin-top: 20px;
   width: 90%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   color: #fff;
